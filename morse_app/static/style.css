@@ -1,0 +1,92 @@
+/* Reset some default margins */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: none;
+  margin-bottom: 15px;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  background: #3498db;
+  color: white;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+button.mic {
+  background: #e67e22;
+}
+
+button.mic:hover {
+  background: #d35400;
+}
+
+.output-section {
+  background: #f0f4f8;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+#output {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.suggestions {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}
